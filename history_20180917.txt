@@ -1,19 +1,67 @@
     1  VirtualBox --startvm XP
     2  quartus
-    3  man uname
-    4  uname
-    5  uname -a
-    6  echo $0
-    7  sh
-    8  echo $0
-    9  whoami
-   10  who
-   11  pwd
-   12  man pwd
-   13  ls
-   14  ls -l
-   15  ls -a
-   16  ls -la
-   17  ls
-   18  history
-   19  history > history_20180917.txt
+    3  exit
+    4  man uname
+    5  uname
+    6  uname -a
+    7  echo $0
+    8  sh
+    9  echo $0
+   10  whoami
+   11  who
+   12  pwd
+   13  man pwd
+   14  ls
+   15  ls -l
+   16  ls -a
+   17  ls -la
+   18  ls
+   19  history
+   20  history > history_20180917.txt
+   21  ls
+   22  history
+   23  echo $0
+   24  quartus
+   25  ls
+   26  uname -a
+   27  ls -l
+   28  ls -a
+   29  ls - la
+   30  ls -la
+   31  man pwd
+   32  exit
+   33  history
+   34  man who
+   35  sh
+   36  cat fail1.txt
+   37  cd bin
+   38  ls -l
+   39  echo "Cits teksts " > fails.txt
+   40  ls -l
+   41  echo "Teksts" >fails.txt
+   42  chmod 500 fails.txt 
+   43  ls -l
+   44  echo "Pavisam cits teksts" >> ../fails.txt
+   45  pwd
+   46  nano fails.txt
+   47  ls -l
+   48  cp fails2.txt fails3.txt
+   49  ls -l
+   50  mv fails1.txt Music/
+   51  cd Music/
+   52  ls -l
+   53  ls
+   54  cd ..
+   55  mv fails*.txt
+   56  cd Music
+   57  ls
+   58  mv fails.3txt fails4.txt
+   59  ls
+   60  mv fails.txt ../fails101.txt
+   61  ls
+   62  cd ..
+   63  mv music/*.txt ./
+   64  rm fails*.txt
+   65  ls
+   66  history
+   67  history > history_20180917.txt
