@@ -5,3 +5,8 @@ Datormācības kursa elektroniskā klade
 * **cat filename** parāda faila saturu  
 * **mv file "new file path"** aizvada failu uz jauno vietu
 * **rm filename** izdzēš failu  
+* **rmdir** izdzēš directory 
+* **mv** pārsauc directory
+* **pwd** parāda pašreizējo atrašanās vietu  
+* **rmdir** izdzēš tukšos directory  
+* **
