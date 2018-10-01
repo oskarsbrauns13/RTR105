@@ -11,4 +11,3 @@ Datormācības kursa elektroniskā klade
 * **rmdir** izdzēš tukšos directory  
 * **pwd** parāda pašreizējo atrašanās vietu 
 * **=** Piešķiršanas operācija  
-
