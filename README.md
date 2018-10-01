@@ -9,4 +9,6 @@ Datormācības kursa elektroniskā klade
 * **mv** pārsauc directory
 * **pwd** parāda pašreizējo atrašanās vietu  
 * **rmdir** izdzēš tukšos directory  
-* **
+* **pwd** parāda pašreizējo atrašanās vietu 
+* **=** Piešķiršanas operācija  
+
