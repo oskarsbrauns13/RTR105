@@ -1,0 +1,166 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+Blastoff!
+4
+Blastoff!
+3
+Blastoff!
+2
+Blastoff!
+1
+Blastoff!
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Blastoff!
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Before
+9
+41
+12
+3
+74
+15
+After
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Before
+9
+41
+12
+3
+74
+15
+After
+('Before', -1)
+(9, 9)
+(41, 41)
+(41, 12)
+(41, 3)
+(74, 74)
+(74, 15)
+('After', 74)
+>>> 
+================= RESTART: /home/user/RTR105/DefiniteLoop.py =================
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Blastoff!
+5
+4
+3
+2
+1
+Before
+9
+41
+12
+3
+74
+15
+After
+('Before', -1)
+(9, 9)
+(41, 41)
+(41, 12)
+(41, 3)
+(74, 74)
+(74, 15)
+('After', 74)
+('Before', 0)
+(1, 9)
+(2, 41)
+(3, 12)
+(4, 3)
+(5, 74)
+(6, 15)
+('After', 6)
+>>> $python countloop.py
+SyntaxError: invalid syntax
+>>> $ python countloop.py
+SyntaxError: invalid syntax
+>>> 
