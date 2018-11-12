@@ -1,0 +1,106 @@
+Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
+[GCC 5.4.0 20160609] on linux2
+Type "copyright", "credits" or "license()" for more information.
+>>> open file (".txt" )
+SyntaxError: invalid syntax
+>>> open (".txt)
+      
+SyntaxError: EOL while scanning string literal
+>>> open ("texts123.txt")
+
+Traceback (most recent call last):
+  File "<pyshell#2>", line 1, in <module>
+    open ("texts123.txt")
+IOError: [Errno 2] No such file or directory: 'texts123.txt'
+>>> fhand=open('mbox.txt')
+
+Traceback (most recent call last):
+  File "<pyshell#3>", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> fhand=open('mbox.txt')
+
+Traceback (most recent call last):
+  File "<pyshell#4>", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+
+>>> 
+>>> fhand=open('mbox.txt')
+
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> print(fhand)
+
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    print(fhand)
+NameError: name 'fhand' is not defined
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+
+Traceback (most recent call last):
+  File "/home/user/handle.py", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+
+Traceback (most recent call last):
+  File "/home/user/handle.py", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> stuff='Hello\nWorld!'
+>>> stuff
+'Hello\nWorld!'
+>>> print(stuff)
+Hello
+World!
+>>> stuff='X\nY'
+>>> print(stuff)
+X
+Y
+>>> len(stuff)
+3
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+
+Traceback (most recent call last):
+  File "/home/user/handle.py", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+
+Traceback (most recent call last):
+  File "/home/user/handle.py", line 1, in <module>
+    fhand=open('mbox.txt')
+IOError: [Errno 2] No such file or directory: 'mbox.txt'
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+<open file 'mbox.txt', mode 'r' at 0x7f77fff738a0>
+iughsghus
+
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+<open file 'mbox.txt', mode 'r' at 0x7ff90532b8a0>
+iughsghus
+
+iughsghus
+
+>>> 
+======================= RESTART: /home/user/handle.py =======================
+<open file 'mbox.txt', mode 'r' at 0x7fb584ccf8a0>
+iughsghus
+
+iughsghus
+
+('Line Count:', 0)
+
+Traceback (most recent call last):
+  File "/home/user/handle.py", line 14, in <module>
+    fhand=open('mbox-short.txt')
+IOError: [Errno 2] No such file or directory: 'mbox-short.txt'
+>>> 
